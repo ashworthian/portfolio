@@ -10,7 +10,7 @@ document.addEventListener("scroll", function() {
   let distanceFromTop = window.scrollY;
   console.log(distanceFromTop);
   if (distanceFromTop > 0) {
-    bigTitleTag.style.top = "38%";
+    bigTitleTag.style.top = "50%";
   } else {
     bigTitleTag.style.top = "-200px";
   }
