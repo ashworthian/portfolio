@@ -14,11 +14,11 @@ const fadeIn = function() {
   animatedTags.forEach(tag => {
     //Get reference to the distance of each tag we want to animate from the top
     let tagDistance = $(tag).offset().top;
-    console.log(tag, tagDistance);
+    // console.log(tag, tagDistance);
 
     //Get reference to the scroll bar distance from top
     let scrollBarLocation = window.scrollY;
-    console.log(scrollBarLocation);
+    // console.log(scrollBarLocation);
 
     // When the scrollbar gets -50px from the location of the tag, fade the tag in
     if (scrollBarLocation > (tagDistance - 400)) {

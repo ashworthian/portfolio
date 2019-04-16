@@ -8,14 +8,15 @@ const navTag = document.querySelector("nav");
 document.addEventListener("scroll", function() {
 
   let distanceFromTop = window.scrollY;
-  console.log(distanceFromTop);
+  let sectionDistance = $("#contact").offset().top;
   if (distanceFromTop > 0) {
     bigTitleTag.style.top = "50%";
   } else {
     bigTitleTag.style.top = "-200px";
   }
 
-  if (distanceFromTop > 4544) {
+  if (distanceFromTop > (sectionDistance - 500)) {
+    // console.log("This is working" + distanceFromTop, sectionDistance);
     bigTitleTag.style.opacity = "0";
     navTag.style.opacity = "0";
     hiddenTextTag.style.bottom = "35%";
