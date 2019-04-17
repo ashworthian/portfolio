@@ -66,8 +66,14 @@ h4 {
   font-size: 3vmin;
 }
 
-.thumbnail {
-  margin-bottom: 20px;
+.thumbtop {
+  margin-bottom: 10px;
+  width: 356px;
+}
+
+.thumbbot {
+  margin-top: 10px;
+  width: 356px;
 }
 
 .brief {
