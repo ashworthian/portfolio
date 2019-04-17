@@ -67,12 +67,14 @@ h4 {
 }
 
 .thumbtop {
-  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto 10px auto;
   width: 356px;
 }
 
 .thumbbot {
-  margin-top: 10px;
+  display: block;
+  margin: 10px auto 0 auto;
   width: 356px;
 }
 
